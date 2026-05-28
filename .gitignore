@@ -19,3 +19,4 @@ deployments/arb-sepolia.json
 deployments/eth-sepolia.json
 
 .DS_Store
+derivatives-prototype-zama
