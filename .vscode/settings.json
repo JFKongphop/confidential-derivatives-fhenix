@@ -1,0 +1,10 @@
+{
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "node_modules",
+  "solidity.compileUsingRemoteVersion": "v0.8.25",
+  "solidity.remappings": [
+    "@fhevm/=node_modules/@fhevm/",
+    "@zama-fhe/=node_modules/@zama-fhe/",
+    "hardhat/=node_modules/hardhat/"
+  ]
+}
