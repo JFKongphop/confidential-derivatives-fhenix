@@ -44,15 +44,13 @@ contract Collateral is IERC7984Receiver {
 
   /// @notice FHERC20 receiver callback — called by the token after a confidentialTransferAndCall.
   ///         User calls token.confidentialTransferAndCall(collateral, encryptedAmount, "") directly.
-  /// @param  operator The address which initiated the transfer
   /// @param  from    The sender of the confidential transfer (user).
   /// @param  encryptedAmount  Already-verified encrypted amount.
-  /// @param  data    Additional data (unused)
   function onConfidentialTransferReceived(
-    address operator,
+    address,
     address from,
     bytes32 encryptedAmount,
-    bytes calldata data
+    bytes calldata
   ) external override returns (bytes4) {
     require(msg.sender == address(token), "Collateral: only token");
 
