@@ -1,0 +1,3 @@
+@fhenixprotocol/=node_modules/@fhenixprotocol/
+@cofhe/=node_modules/@cofhe/
+@openzeppelin/=node_modules/@openzeppelin/
